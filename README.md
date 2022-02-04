@@ -1,8 +1,8 @@
 # SvelteKit, rxDB, PouchDB & CouchDB Todos
 
-A simple todos app using SvelteKit, rxDB, PouchDB, CouchDB and Tailwind CSS. Data is stored in browser IndexedDB with PouchDB and syncs with a remote CouchDB database.
+A simple todos app using SvelteKit, rxDB, PouchDB, CouchDB and Tailwind CSS. Data is stored in browser IndexedDB with rxDB (PouchDB) and syncs with a remote CouchDB database.
 
-![Screenshot of SvelteKit, PouchDB, CouchDB Todos](/static/sveltekit-rxdb-pouchdb-couchdb-todos-screenshot.png)
+![Screenshot of SvelteKit, rxDB PouchDB, CouchDB Todos](/static/sveltekit-rxdb-pouchdb-couchdb-todos-screenshot.png)
 
 ## Features
 
