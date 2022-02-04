@@ -1,5 +1,5 @@
 {
-  "name": "sveltekit-rxdb",
+  "name": "sveltekit-rxdb-pouchdb-couchdb-todos",
   "version": "0.0.1",
   "scripts": {
     "dev": "svelte-kit dev",
@@ -16,5 +16,12 @@
     "prettier-plugin-svelte": "^2.4.0",
     "svelte": "^3.44.0"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "events": "^3.3.0",
+    "pouchdb-adapter-http": "^7.2.2",
+    "pouchdb-adapter-idb": "^7.2.2",
+    "rxdb": "^11.5.1",
+    "rxjs": "^7.5.2"
+  }
 }
