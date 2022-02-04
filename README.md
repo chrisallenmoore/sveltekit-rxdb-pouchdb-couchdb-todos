@@ -1,24 +1,31 @@
-# create-svelte
+# SvelteKit, rxDB, PouchDB & CouchDB Todos
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+A simple todos app using SvelteKit, rxDB, PouchDB, CouchDB and Tailwind CSS. Data is stored in browser IndexedDB with PouchDB and syncs with a remote CouchDB database.
 
-## Creating a project
+![Screenshot of SvelteKit, PouchDB, CouchDB Todos](/static/sveltekit-rxdb-pouchdb-couchdb-todos-screenshot.png)
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Features
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
+- [X] Add todos
+    - [X] By pressing the Add button
+    - [X] By pressing `Enter` key while the caret is in todo item input field
+    - [X] Won't add todo item if the todo item input field is empty
+    - [X] Keeps caret focus in add todo input field for quick succession of adding todo items
+- [ ] Update todos
+    - [ ] Update todo item on blur or by pressing Enter key
+- [X] Delete todos
+    - [X] By pressing `X` (delete) button
+    - [ ] By having an empty todo item input field on blur or by pressing `Enter` key
+- Reactive data
+- Beautiful UI
 
-# create a new project in my-app
-npm init svelte@next my-app
-```
+## TODO
+- [ ] Change how todo items are updated and marked completed. rxDB doesn't allow svelte binding on rxDB's data directly, get the following error
+`Since version 8.0.0 RxDocument.set() can only be called on temporary RxDocuments`
 
-> Note: the `@next` is temporary
+## Give it a whirl
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Once you've cloned or downloaded the project, install dependencies with `npm install` (or `pnpm install` or `yarn`), then start a development server:
 
 ```bash
 npm run dev
