@@ -2,7 +2,7 @@
 
 **NOTE: this repository needs to be updated, it was built using `"@sveltejs/kit": "next"` in the package.json file. But, SvelteKit has changed it's routing and other things that break the app in it's current state. I also think rxDB has changed as well.**
 
-*TODO: update this repository upto the new SvelteKit routing*
+*TODO: update this repository upto the new SvelteKit routing and latest rxDB stuff.*
 
 A simple todos app using SvelteKit, rxDB, PouchDB, CouchDB and Tailwind CSS. Data is stored in browser IndexedDB with rxDB (PouchDB) and syncs with a remote CouchDB database.
 
